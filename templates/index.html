@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is working</title>
+</head>
+<body>
+    <h1>Mai ak massom se template hu harry bhai</h1>
+   
+    <h3>{{name}}----{{place}}</h3>
+    <form action="/nextpage" method="get">
+        <!-- {% csrf_token %} -->
+
+        Name: <input type="text" name = "name" placeholder = "Write your name"><br>
+        <input type="checkbox" name="removepunc" id="">removepunc<br>
+        <input type="checkbox" name="Uppercase" id="">UpperCase<br>
+        <input type="Submit">
+    </form>
+    
+    
+</body>
+</html>
